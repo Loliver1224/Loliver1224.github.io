@@ -1,0 +1,19 @@
+/* xxx styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+@font-face {
+  font-family: 怨霊;
+  src: url(fonts/onryou.TTF);
+}
