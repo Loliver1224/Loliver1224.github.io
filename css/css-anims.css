@@ -47,6 +47,11 @@
 		'w' 1s ease 1s alternate forwards,
 		'h' 1s ease 2s reverse forwards,
 		'w' 1s ease 3s reverse forwards;
+	animation: 
+		'h' 1s ease 0s alternate forwards,
+		'w' 1s ease 1s alternate forwards,
+		'h' 1s ease 2s reverse forwards,
+		'w' 1s ease 3s reverse forwards;
 }
 
 @keyframes h {
