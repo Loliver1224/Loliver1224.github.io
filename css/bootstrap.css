@@ -9885,9 +9885,3 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-/* onryou font set */
-@font-face {
-  font-family: 怨霊;
-  src: url(fonts/onryou.TTF);
-}
