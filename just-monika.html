@@ -19,13 +19,15 @@
               <div class="card-body">
                 <h5 class="card-title">Just Monika.</h5>
                   <p class="card-text"></p>
-                <a href="#" class="btn btn-outline-danger">Yes</a>
+                <a href="#" class="btn btn-outline-danger" onclick="clickEvent()">Yes</a>
               </div>
             </div>
         </div>
         <script>
-            for(var i=0; i<10; i++)
-                alert("Just Monika.");
+            function clickEvent(){
+                for(let i=0; i<10; i++)
+                    alert("Just Monika.");
+            }
         </script>
     </body>
 </html>
