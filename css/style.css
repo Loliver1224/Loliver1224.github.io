@@ -243,6 +243,14 @@ ul, li {
   width: 49%;
 }
 
+@media screen and (max-width: 503px) {
+   #works .card { width: 100% }
+}
+
+@media screen and (min-width: 1064px) {
+   #works .card { width: 32% }
+}
+
 #works .card {
   margin-bottom: 50px;
 }
