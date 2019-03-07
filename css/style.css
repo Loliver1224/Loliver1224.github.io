@@ -296,6 +296,13 @@ ul, li {
 #about .two-column-desc {
   width: 62%;
 }
+/* 多分ここうまくいってなあ */
+@media screen and (max-width: 766px) {
+   #about .two-column-desc {
+	   margin-left: auto;
+	   margin-right: auto;
+	}
+}
 
 /*--------------------------------
  SKILL
