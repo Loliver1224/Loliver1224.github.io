@@ -1,116 +1,324 @@
-<!doctype html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Loliver</title>
-        <!-- BootstrapのCSS読み込み -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- jQuery読み込み -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- BootstrapのJS読み込み -->
-        <script src="js/bootstrap.min.js"></script>
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <link href="css/sticky-footer.css" rel="stylesheet">
-    </head>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Loliver ポートフォリオ'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content='Loliverのポートフォリオです。'>
+  <meta property="og:image" content="img/hsm_icon-Loliver-.png">
+  <meta name="description" content="Loliverのポートフォリオです。" />
+  <title>Loliver's portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
 
-    <body class="bg-info">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-            <img src="img/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
-              Loliver
-            </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/Loliver1224">GitHub</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://loliver.hatenablog.jp">Blog</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Projects
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="css-anims.html">CSS Animations</a>
-                  <a class="dropdown-item" href="#">Another project</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="just-monika.html">Just Monika</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="container">
-            <div class="jumbotron mt-4 text-light bg-dark">
-              <h1 class="display-4">プログラミングは婚活</h1>
-              <p class="lead">
-                  <br>　　僕　「実は僕イノベイターなんですよね」
-                  <br>　？？？「じゃあ敵だねっ！」
-              </p>
-              <hr class="my-4">
-              <p>　はい</p>
-              <a class="btn btn-primary btn-lg" href="false-index.html" role="button">押すな</a>
-            </div>
-        </div>
-        <div class="jumbotron jumbotron-fluid text-light bg-dark">
-          <div class="container">
-            <h1 class="display-4">-
-              <font face="Times New Roman">
-                  <i>Profile</i>
-              </font>-
-            </h1>
-              <p class="lead"><s>大都会</s>熊本高専<abbr title="人間情報システム工学科">HI科</abbr>の幼女型人工生命
-                <br>部活：(今年度まで：水泳　来年度から：電算部)・放送部
-                <br>趣味：ぷよぷよよんぐ・もでりりり・ようつべ・睡眠
-                <br>あ
-                <br>ヴェ
-                <br>しんゾぅ
+<body>
+  <div id="wrapper">
+    <header id="header" style="background: url(img/technology-3433708_1920.jpg) center / cover no-repeat fixed;">
+      <h1 class="logo">
+        <span class="logo-name">&nbsp;</span>
+        <span class="logo-title"><i>Loliver</i></span>
+        <span class="logo-desc neon" style="color: #ffffff">ぽぉとふぉりお（仮）</span>
+      </h1>
+    </header>
+    <nav id="gnav">
+      <ul>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#sites">SITES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main id="contents" style="background-color: floralwhite">
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">- ABOUT -</h2>
+            <p class="section-desc">
+              ｺﾝﾆﾁﾊ､ﾎﾞｸｶﾞﾛﾘﾊﾞｰﾀﾞﾖ
             </p>
           </div>
-        </div>
-        <div class="jumbotron jumbotron-fluid text-light bg-dark">
-          <div class="container">
-            <h1 class="display-4">-
-              <font face="Times New Roman">
-                  <i>Works</i>
-              </font>-
-            </h1>
-              <p class="lead">趣味でいろいろ</p>
-			  <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日は熊を燃やしました！！！！ <a href="https://t.co/ieV7MHYHpE">pic.twitter.com/ieV7MHYHpE</a></p>&mdash; ロリバー⚓🍆🌷 (@Lolitta_river) <a href="https://twitter.com/Lolitta_river/status/1097431251475034113?ref_src=twsrc%5Etfw">February 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			  <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はい <a href="https://t.co/YepJNQ4Lvh">pic.twitter.com/YepJNQ4Lvh</a></p>&mdash; ロリバー⚓🍆🌷 (@Lolitta_river) <a href="https://twitter.com/Lolitta_river/status/1096681067291959296?ref_src=twsrc%5Etfw">February 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">センター英語リスニング第一問正解くん気に入ったので動かしてみた <a href="https://t.co/5gtUiDtRzX">pic.twitter.com/5gtUiDtRzX</a></p>&mdash; ロリバー⚓🍆🌷 (@Lolitta_river) <a href="https://twitter.com/Lolitta_river/status/1086594877796696065?ref_src=twsrc%5Etfw">January 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-			  <p class="lead">etc...</p>
+          <div class="two-column-wrapper">
+            <div class="two-column-image">
+              <img src="img/hsm_icon-Loliver-.png" alt="">
+              <p><span style="font-size: 80%; color: darkgray">↑このアイコンは<a href="https://twitter.com/hsm_hx">はすみ</a>さんからいただきました🙏</span></p>
+            </div>
+            <div class="two-column-desc">
+              <p class="text">
+                <s>大都会</s>熊本高専<abbr title="人間情報システム工学科">HI科</abbr>の幼女型人工生命体<br>
+                <br>部活：放送部（来年度から電算も）
+                <br>趣味：ぷよぷよよんぐ・もでりりり<br>　　　ようつべ・睡眠・Twitter
+                <br>あ
+                <br>ヴェ
+                <br>しんゾぅ</p>
+              <p>&nbsp;</p>
+              <a href="https://twitter.com/Lolitta_river?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @Lolitta_river</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
           </div>
         </div>
-        <p>&nbsp;</p>
-        <footer class="footer">
-            <div class="float-right">
-                <p></p>
-                <img src="img/%E7%9F%A2%E5%8D%B0%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E3%80%80%E5%8F%B34.png" width="28" height="28">
-                <a href="https://twitter.com/Lolitta_river">
-                    <img src="img/Twitter_Social_Icon_Circle_White.png" width="30" height="30" alt="Twitter">
-                </a>
-                <a href="https://github.com/Loliver1224">
-                    <img src="img/GitHub-Mark-Light-120px-plus.png" width="30" height="30" alt="GitHub">
-                </a>
-                <a href="https://loliver.hatenablog.jp">
-                    <img src="img/hatenablog-logo.png" width="34" height="34" alt="Blog">
-                </a>
-                <a>&nbsp;</a>
+      </section>
+
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">- WORKS -</h2>
+            <div class="section-desc">
+              <p class="text">
+                これまでに趣味で制作した何か</p>
             </div>
-        </footer>
-    </body>
+          </div>
+          <div class="card-wrapper my-gallery">
+            <figure class="card">
+              <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日は熊を燃やしました！！！！ <a href="https://t.co/ieV7MHYHpE">pic.twitter.com/ieV7MHYHpE</a></p>&mdash; 銀髪ツインテールロリメイド⚓🍆🌷 (@Lolitta_river) <a href="https://twitter.com/Lolitta_river/status/1097431251475034113?ref_src=twsrc%5Etfw">February 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </figure>
+            <figure class="card">
+              <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">はい <a href="https://t.co/YepJNQ4Lvh">pic.twitter.com/YepJNQ4Lvh</a></p>&mdash; 銀髪ツインテールロリメイド⚓🍆🌷 (@Lolitta_river) <a href="https://twitter.com/Lolitta_river/status/1096681067291959296?ref_src=twsrc%5Etfw">February 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </figure>
+            <figure class="card">
+              <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">センター英語リスニング第一問正解くん気に入ったので動かしてみた <a href="https://t.co/5gtUiDtRzX">pic.twitter.com/5gtUiDtRzX</a></p>&mdash; 銀髪ツインテールロリメイド⚓🍆🌷 (@Lolitta_river) <a href="https://twitter.com/Lolitta_river/status/1086594877796696065?ref_src=twsrc%5Etfw">January 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">- SKILL -</h2>
+            <p class="section-desc">
+              とりあえず基礎がある程度身に付いてるものを
+            </p>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/Live2D%20logo%20square.png" alt="">
+                <img src="img/skill/icon_blender.svg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">2D/3Dモデリング</h3>
+                <div class="rating">
+                  <p class="rate rate4"></p>
+                </div>
+                <p class="text">Live2D・Blenderが使えます
+                <br>センター英語リスニング第一問正解くんは１時間程で制作しました</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <a href="http://www.bohyoh.com">
+                  <img src="img/skill/icon_prog-c.svg" alt="">
+                </a>
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">C言語</h3>
+                <div class="rating">
+                  <p class="rate rate4"></p>
+                </div>
+                <p class="text">paizaのスキルチェックB問題がある程度溶けるくらい</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_python.svg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Python3</h3>
+                <div class="rating">
+                  <p class="rate rate4"></p>
+                </div>
+                <p class="text">クラスや例外処理らへんまで学習済み<br><br>DeepLearningを嗜む上で最低限必要な知識はありますいやまだありません</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_html5.svg" alt="">
+                <img src="img/skill/icon_css3.svg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">HTML5/CSS3</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">まだ始めたばかりですが！！！！</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_js.svg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">JavaScript</h3>
+                <div class="rating">
+                  <p class="rate rate1"></p>
+                </div>
+                <p class="text">アラートを無限ループさせることができます。↓</p>
+                <p>&nbsp;</p>
+                <a href="#" class="btn-top-radius" onclick="clickEvent()">WARNING</a>
+                <script>
+                    function clickEvent(){
+                        while(1)
+                            alert("あああああ");
+                    }
+                </script>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_unity.svg" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Unity</h3>
+                <div class="rating">
+                  <p class="rate rate1"></p>
+                </div>
+                <p class="text">マリオ風の2Dゲーム等を作ったことがあります</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">お嬢さまことば</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">上流貴族たるもの、<br>この程度当たり前でしてよ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sites">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">- SITES -</h2>
+          </div>
+          <div class="sites-wrapper">
+            <div class="sites-list">
+              <ul>
+                <li><a href="https://twitter.com/Lolitta_river" target="_blank"><img src="img/Twitter_Social_Icon_Circle_Color.svg" alt=""><span class="sites-list-desc">Twitter</span></a></li>
+                <li><a href="https://github.com/Loliver1224" target="_blank"><img src="img/GitHub-Mark-120px-plus.png" alt=""><span class="sites-list-desc">GitHub</span></a></li>
+                <li><a href="https://loliver.hatenablog.jp/" target="_blank"><img src="img/hatenablog-logo.png" alt=""><span class="sites-list-desc">Blog</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">- CONTACT -</h2>
+            <p class="section-desc">
+              お問合わせはTwitterからお願いしますわ。
+            </p>
+            <p>&nbsp;</p>
+            <a href="https://twitter.com/messages/compose?recipient_id=Lolitta_river&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="Lolitta_river" data-show-count="false">Message @Lolitta_river</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="#latestworks">LATEST WORKS</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright&copy;hoge. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
 </html>
