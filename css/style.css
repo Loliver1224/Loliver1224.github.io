@@ -226,7 +226,7 @@ ul, li {
 /*--------------------------------
 　Latestworks
 ---------------------------------*/
-
+/*
 #latestworks .two-column-image {
   width: 48%;
 }
@@ -234,17 +234,13 @@ ul, li {
 #latestworks .two-column-desc {
   width: 48%;
 }
-
+*/
 /*--------------------------------
 　WORKS
 ---------------------------------*/
 
 #works .card {
   width: 49%;
-}
-
-@media screen and (max-width: 503px) {
-   #works .card { width: 100% }
 }
 
 @media screen and (min-width: 1064px) {
@@ -254,7 +250,7 @@ ul, li {
 #works .card {
   margin-bottom: 50px;
 }
-
+/*
 #works .card-image {
   display: block;
   margin-bottom: 8px;
@@ -272,7 +268,7 @@ ul, li {
 #works .card-caption-url {
   font-size: 10px;
 }
-
+*/
 #works .card-wrapper {
   padding: 20px 0;
   display: -webkit-box;
@@ -483,10 +479,10 @@ ul, li {
   text-align: center;
 }
 
-/*media Queries 767
+/*media Queries 503
 ----------------------------------------------------*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 503px) {
   body {
     font-size: 13px;
     line-height: 1.7;
@@ -538,7 +534,7 @@ ul, li {
     width: 100%;
   }
   #works .card {
-    width: 48%;
+    width: 100%;
   }
   #works .card-caption-title {
     font-size: 12px;
