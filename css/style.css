@@ -399,6 +399,11 @@ ul, li {
   width: 100px;
 }
 
+#skill .rate-5:after {
+  color: #733ADC;
+  width: 100px;
+}
+
 .btn-top-radius {
   position: relative;
   display: inline-block;
