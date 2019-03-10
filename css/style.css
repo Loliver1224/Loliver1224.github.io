@@ -77,11 +77,7 @@ ul, li {
   -ms-align-items: center;
   align-items: center;
   height: 380px;
-  background-image: url("../img/bg-pc.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: url(../img/bg-pc.png) center /cover no-repeat fixed;
 }
 
 #header .logo {
@@ -517,7 +513,7 @@ ul, li {
   }
   #header {
     height: 200px;
-    background-image: url("../img/bg-sp.png");
+	background: url("../img/bg-sp.png") center /no-repeat fixed;
   }
   #header .logo-title {
     font-size: 56px;
