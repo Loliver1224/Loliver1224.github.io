@@ -5,28 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>蠖ｼ螂ｳ繧呈ｶ医＠縺ｦ</title>
-        <!-- BootstrapのCSS読み込み -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- jQuery読み込み -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- BootstrapのJS読み込み -->
-        <script src="js/bootstrap.min.js"></script>
         <link rel="shortcut icon" href="img/hxppy-thxughts.ico">
+		<link href="css/xxx.css" type="text/css" rel="stylesheet">
     </head>
-    <body style="background: url(img/just-monika.jpg) no-repeat center center fixed;">
+    <body style="background: url(img/just-monika.jpg) center /cover no-repeat fixed;">
         <div class="mx-auto" style="width: 200px; position: absolute; top: calc(50% - 50px); left: calc(50% - 100px);">
             <div class="card border-danger text-center" style="width: 13rem;">
               <div class="card-body">
                 <h5 class="card-title">Just Monika.</h5>
                   <p class="card-text"></p>
-                <a href="#" class="btn btn-outline-danger" onclick="clickEvent()">Yes</a>
+                <a href="#" class="btn-cross" onclick="clickEvent()">Yes</a>
               </div>
             </div>
         </div>
         <script>
             function clickEvent(){
-                for(let i=0; i<10; i++)
-                    alert("Just Monika.");
+				alert("Just Monika.");
+				location="index.html";
             }
         </script>
     </body>
