@@ -392,6 +392,10 @@ ul, li {
   width: 60px;
 }
 
+#skill .rate35:after {
+  width: 73px;
+}
+
 #skill .rate4:after {
   width: 80px;
 }
@@ -621,6 +625,9 @@ ul, li {
   #skill .rate3:after {
     width: 45px;
   }
+#skill .rate35:after {
+  width: 55.5px;
+}
   #skill .rate4:after {
     width: 60px;
   }
