@@ -8,7 +8,11 @@
         <link rel="shortcut icon" href="img/hxppy-thxughts.ico">
 
 		<style type="text/css">
-			body {line-height: 130%}
+			body {
+				line-height: 130%;
+				background-color: #f3f3f3;
+  				background:url("img/common/bg/noise-04.jpg") center fixed;
+			}
 			a {
   				color: #B91D1F;
 				text-decoration: none;
@@ -19,11 +23,26 @@
 			}
 			@font-face {
 				font-family: 怨霊;
-				src: url("../fonts/onryou_forMyPortfolio.ttf");
+				src: url("fonts/onryou_forMyPortfolio.ttf");
+			}
+			@media screen and (max-width: 503px) {
+				body::before {
+					font-size: 13px;
+					line-height: 1.7;
+					content:"";
+					display:block;
+					position:fixed;
+					top:0;
+					left:0;
+					z-index:-1;
+					width:100%;
+					height:100vh;
+					background:url("img/common/bg/noise-04.jpg") center;
+  				}
 			}
 		</style>
     </head>
-    <body style="background: url(img/common/bg/noise-04.jpg) center fixed;">
+    <body>
         <div class="mx-auto" style="width: 200px;">
             <font face="怨霊" color="white">
                 <p>&nbsp;</p>
