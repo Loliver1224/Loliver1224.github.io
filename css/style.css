@@ -436,7 +436,7 @@ ul, li {
 }
 
 #sites .sites-list ul {
-  width: 40%;
+  width: 70%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -635,13 +635,13 @@ ul, li {
     width: 75px;
   }
   #sites .sites-list ul {
-    width: 100%;
+    width: 70%;
   }
   #sites .sites-list li {
-    flex-basis: 30%;
+    flex-basis: 50%;
   }
   #sites .sites-list li img {
-    width: 30px;
+    width: 60px;
   }
   #sites .sites-list-desc {
     font-size: 12px;
