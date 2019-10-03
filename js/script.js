@@ -58,15 +58,11 @@ $(function() {
 
 // Loader
 $(function(){
-	var loader = $('.loader-wrap');
 
-	//ページの読み込みが完了したらアニメーションを非表示
-	$(window).on('load',function(){
-		loader.fadeOut();
-	});
+	var isHidden = function(){
+		$('.loader-wrap').fadeOut();
+	}
 
-	//ページの読み込みが完了してなくても3秒後にアニメーションを非表示にする
-	setTimeout(function(){
-		loader.fadeOut();
-	},3000);
+	// ページの読み込み完了800ms後アニメーションを非表示
+	$(window).on('load', setTimeout(isHidden, 800));
 });
