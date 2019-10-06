@@ -317,17 +317,17 @@ ul, li {
 ---------------------------------*/
 
 #works .card {
-  width: 49%;
+  width: 32%;
 }
-
+/*
 @media screen and (min-width: 1064px) {
    #works .card { width: 32% }
 }
-
+*/
 #works .card {
   margin-bottom: 50px;
 }
-/*
+
 #works .card-image {
   display: block;
   margin-bottom: 8px;
@@ -345,7 +345,7 @@ ul, li {
 #works .card-caption-url {
   font-size: 10px;
 }
-*/
+
 #works .card-wrapper {
   padding: 20px 0;
   display: -webkit-box;
@@ -373,8 +373,8 @@ ul, li {
 }
 
 #about .my-name {
-	font-family: "Comic Sans MS", "cursive";
-	font-style: italic;
+	font-family: 'Short Stack', cursive;
+	/*font-style: italic;*/
 	font-size: 26px;
 	color: #7058a3;
 	position: relative;
@@ -698,7 +698,7 @@ ul, li {
     width: 100%;
   }
   #works .card {
-    width: 100%;
+    width: 48%;
   }
   #works .card-caption-title {
     font-size: 12px;
