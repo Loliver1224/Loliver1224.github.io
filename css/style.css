@@ -378,6 +378,7 @@ ul, li {
 	font-size: 26px;
 	color: #7058a3;
 	position: relative;
+	padding-left: 2em;
 }
 #about .my-name:before{
  content: '＊*'; /*花に見せかけるためのアスタリスク*/
