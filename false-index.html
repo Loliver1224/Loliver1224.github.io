@@ -8,10 +8,25 @@
         <link rel="shortcut icon" href="img/hxppy-thxughts.ico">
 
 		<style type="text/css">
+			body::before {
+				content:"";
+				display:block;
+				position:fixed;
+				top:0;
+				left:0;
+				z-index:-1;
+				width:100%;
+				height:100vh;
+				background:url("img/common/bg/noise-04.jpg") center;
+  			}
 			body {
 				line-height: 130%;
-				background-color: #f3f3f3;
+				background-color: #000000;
   				background:url("img/common/bg/noise-04.jpg") center fixed;
+				user-select: none; /* CSS3 */
+				-moz-user-select: none; /* Firefox */
+				-webkit-user-select: none; /* Safari、Chromeなど */
+				-ms-user-select: none; /* IE10かららしい */
 			}
 			a {
   				color: #B91D1F;
@@ -23,21 +38,12 @@
 			}
 			@font-face {
 				font-family: 怨霊;
-				src: url("fonts/onryou_forMyPortfolio.ttf");
+				src: url("fonts/onryou_subset.ttf");
 			}
 			@media screen and (max-width: 503px) {
-				body::before {
+				body {
 					font-size: 13px;
 					line-height: 1.7;
-					content:"";
-					display:block;
-					position:fixed;
-					top:0;
-					left:0;
-					z-index:-1;
-					width:100%;
-					height:100vh;
-					background:url("img/common/bg/noise-04.jpg") center;
   				}
 			}
 		</style>
@@ -75,7 +81,8 @@
                 <p>&nbsp;</p>
                 <p>
                     <a href="https://www.b-ch.com/titles/3480/" target="_blank">
-						<b>彼女を消して</b>
+						<b><font size="+2">アイカツ！を観て</font><br><s>彼女を消して</s>
+						</b>
 					</a>
                 </p>
                 <p>&nbsp;</p>
