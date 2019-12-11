@@ -1,5 +1,4 @@
 /* CSS Document */
-
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7,19 +6,17 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body::before {
-  content:"";
-  display:block;
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:-1;
-  width:100%;
-  height:100vh;
-  background:url("../img/common/bg/bg-pc.png") center/cover no-repeat;
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/common/bg/bg-pc.png") center/cover no-repeat;
 }
-
 body {
   font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   color: #333;
@@ -28,12 +25,10 @@ body {
   letter-spacing: 0.8px;
   word-break: break-all;
 }
-
 a {
   color: #1ca9e3;
   text-decoration: none;
 }
-
 a:hover, a:hover img {
   opacity: .8;
   -webkit-transition: all .3s;
@@ -42,7 +37,6 @@ a:hover, a:hover img {
   -o-transition: all .3s;
   transition: all .3s;
 }
-
 img, video, object {
   max-width: 100%;
   height: auto;
@@ -50,111 +44,110 @@ img, video, object {
   vertical-align: bottom;
   display: block;
 }
-
 ul, li {
   list-style: none;
 }
-
 /*--------------------------------
 　Whole
 ---------------------------------*/
-
 #wrapper {
   /* background-color: #f3f3f3;
   background:url("../img/common/bg/bg-pc.png") center/cover no-repeat fixed;*/
 }
-
 .inner {
   max-width: 1320px;
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
 }
-
 #contents {
   padding: 100px 0;
 }
-
 /*--------------------------------
 　Loader
 ---------------------------------*/
-
 .loader-wrap {
-	position: fixed;
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background: #7058a3;  /* すみれ色 */
-	z-index:9999;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #7058a3; /* すみれ色 */
+  z-index: 9999;
 }
 .sk-cube-grid {
   width: 40px;
   height: 40px;
   margin: 100px auto;
 }
-
 .sk-cube-grid .sk-cube {
   width: 33%;
   height: 33%;
   background-color: #8ba358;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
 }
 .sk-cube-grid .sk-cube1 {
   -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
+  animation-delay: 0.2s;
+}
 .sk-cube-grid .sk-cube2 {
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s; }
+  animation-delay: 0.3s;
+}
 .sk-cube-grid .sk-cube3 {
   -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s; }
+  animation-delay: 0.4s;
+}
 .sk-cube-grid .sk-cube4 {
   -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
+  animation-delay: 0.1s;
+}
 .sk-cube-grid .sk-cube5 {
   -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
+  animation-delay: 0.2s;
+}
 .sk-cube-grid .sk-cube6 {
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s; }
+  animation-delay: 0.3s;
+}
 .sk-cube-grid .sk-cube7 {
   -webkit-animation-delay: 0s;
-          animation-delay: 0s; }
+  animation-delay: 0s;
+}
 .sk-cube-grid .sk-cube8 {
   -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s; }
+  animation-delay: 0.1s;
+}
 .sk-cube-grid .sk-cube9 {
   -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
-
+  animation-delay: 0.2s;
+}
 @-webkit-keyframes sk-cubeGridScaleDelay {
   0%, 70%, 100% {
     -webkit-transform: scale3D(1, 1, 1);
-            transform: scale3D(1, 1, 1);
-  } 35% {
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
     -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1); 
+    transform: scale3D(0, 0, 1);
   }
 }
-
 @keyframes sk-cubeGridScaleDelay {
   0%, 70%, 100% {
     -webkit-transform: scale3D(1, 1, 1);
-            transform: scale3D(1, 1, 1);
-  } 35% {
+    transform: scale3D(1, 1, 1);
+  }
+  35% {
     -webkit-transform: scale3D(0, 0, 1);
-            transform: scale3D(0, 0, 1);
-  } 
+    transform: scale3D(0, 0, 1);
+  }
 }
-
 /*--------------------------------
 　Header
 ---------------------------------*/
-
 #header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,11 +160,9 @@ ul, li {
   align-items: center;
   height: 380px;
 }
-
 #header .logo {
   display: block;
 }
-
 #header .logo-name {
   display: block;
   font-family: 'Yesteryear', cursive;
@@ -184,7 +175,6 @@ ul, li {
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
-
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
   font-size: 94px;
@@ -192,35 +182,25 @@ ul, li {
   line-height: 1;
   letter-spacing: -2px;
 }
-
 #header .logo-desc {
   display: block;
   font-size: 16px;
   text-align: center;
   margin-top: 5px;
 }
-
-#header .neon{
-    /* 影を指定（[左右][上下][ぼかし][影の色]） */
-    text-shadow: 0px 0px 5px #ffffff , 
-    0px 0px 20px #326693, 
-    0px 0px 40px #326693, 
-    0px 0px 60px #31a9ee,
-    0px 0px 80px #31a9ee,	
-    0px 0px 100px #31a9ee;		
+#header .neon {
+  /* 影を指定（[左右][上下][ぼかし][影の色]） */
+  text-shadow: 0px 0px 5px #ffffff, 0px 0px 20px #326693, 0px 0px 40px #326693, 0px 0px 60px #31a9ee, 0px 0px 80px #31a9ee, 0px 0px 100px #31a9ee;
 }
-
 /*--------------------------------
 　Global-Navi
 ---------------------------------*/
-
 #gnav {
   padding: 10px;
   font-family: 'Open sans', sans-serif;
   z-index: 100;
-    background-color: floralwhite
+  background-color: floralwhite
 }
-
 #gnav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -231,22 +211,18 @@ ul, li {
   -ms-flex-pack: center;
   justify-content: center;
 }
-
 #gnav li {
   font-weight: bold;
   font-size: 18px;
   padding: 0 20px;
 }
-
 #gnav li:last-child {
   margin-right: 0;
 }
-
 #gnav li a {
   color: #333;
   letter-spacing: -0.01em;
 }
-
 #gnav.fixed {
   position: fixed;
   top: 0;
@@ -258,20 +234,16 @@ ul, li {
   -moz-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
   transform: translate3d(0, 0, 0);
 }
-
 /*--------------------------------
 　Section
 ---------------------------------*/
-
 .section .inner {
   padding: 80px 10px;
 }
-
 .section .section-title-block {
   text-align: center;
   margin-bottom: 30px;
 }
-
 .section .section-title {
   font-family: 'Oswald', sans-serif;
   letter-spacing: -0.01em;
@@ -281,53 +253,12 @@ ul, li {
   margin-bottom: 10px;
   color: #f39ac7;
 }
-
 .section .section-desc {
   text-align: center;
 }
-
-.two-column-wrapper {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.two-column-image {
-  width: 33%;
-}
-
-.two-column-image img {
-  margin: 0 auto;
-}
-
-.two-column-desc {
-  width: 62%;
-}
-
-/*--------------------------------
-　Latestworks
----------------------------------*/
-/*
-#latestworks .two-column-image {
-  width: 48%;
-}
-
-#latestworks .two-column-desc {
-  width: 48%;
-}
-*/
 /*--------------------------------
 　WORKS
 ---------------------------------*/
-
 #works .card {
   width: 32%;
 }
@@ -339,25 +270,20 @@ ul, li {
 #works .card {
   margin-bottom: 50px;
 }
-
 #works .card-image {
   display: block;
   margin-bottom: 8px;
 }
-
 #works .card-caption-title {
   font-size: 13px;
   font-weight: bold;
 }
-
 #works .card-caption-info {
   font-size: 12px;
 }
-
 #works .card-caption-url {
   font-size: 10px;
 }
-
 #works .card-wrapper {
   padding: 20px 0;
   display: -webkit-box;
@@ -369,51 +295,78 @@ ul, li {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 /*--------------------------------
 　About
 ---------------------------------*/
-
-#about .two-column-image {
-  width: 40%;
+#about .my-icon {
+  margin: 0 auto;
+  width: 20%;
   height: 40%;
-  border-radius: 20%;
+  border-radius: 50%;
 }
-
-#about .two-column-desc {
-  width: 55%;
-}
-
 #about .my-name {
-	font-family: 'Short Stack', cursive;
-	/*font-style: italic;*/
-	font-size: 26px;
-	color: #7058a3;
-	position: relative;
-	padding-left: 2em;
+  font-family: 'Short Stack', cursive;
+  /*font-style: italic;*/
+  font-size: 26px;
+  color: #7058a3;
+  position: relative;
+  padding-left: 2em;
 }
-#about .my-name:before{
- content: '＊*'; /*花に見せかけるためのアスタリスク*/
- color: #fff; /* アスタリスクの色 */
- display: inline-block;
- font-size: 30px; /* アスタリスクの大きさ */
- font-weight: bold;
- position: absolute;
- top: 0px;
- left: 0px;
- transform: rotate(20deg);
- -webkit-transform: rotate(20deg);
- text-shadow: 0px 0px 6px #EAA8BF, 0px 0px 4px #EAA8BF, 0 0 0.5px #EAA8BF; /* アスタリスク周りの影 */
+#about .my-name:before {
+  content: '＊*'; /*花に見せかけるためのアスタリスク*/
+  color: #fff; /* アスタリスクの色 */
+  display: inline-block;
+  font-size: 30px; /* アスタリスクの大きさ */
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+  left: -10px;
+  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  text-shadow: 0px 0px 6px #EAA8BF, 0px 0px 4px #EAA8BF, 0 0 0.5px #EAA8BF; /* アスタリスク周りの影 */
 }
-#about .my-name:after{
- border-bottom: 2px dotted #EAA8BF; /* 下線 */
- content: '';
- position: absolute;
- bottom: 0px;
- left: 0px;
- width: 100%;
+#about .my-name:after {
+  content: '＊*';
+  clear: both; /* 改行させない */
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  text-shadow: 0px 0px 6px #EAA8BF, 0px 0px 4px #EAA8BF, 0 0 0.5px #EAA8BF;
 }
-
+#about .bio {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+#about .bio-tr {
+  border-bottom: dashed 1px #FFF;
+}
+#about .bio-tr:last-child {
+  border-bottom: none;
+}
+#about .bio-th {
+  position: relative;
+  text-align: left;
+  width: 25%;
+  background-color: #fff0f5 ;
+  color: #ff6699;
+  text-align: center;
+  padding: 10px 0;
+  border-right: dashed 1px #FFF;
+}
+#about .bio-td {
+  text-align: left;
+  width: 75%;
+  text-align: center;
+  background-color: #f5fff0;
+  padding: 10px;
+}
 #about .sns-list {
   padding: 20px 0;
   margin: 0 auto;
@@ -432,18 +385,9 @@ ul, li {
   margin: 0 20px 5px;
 }
 
-/* 多分ここうまくいってなあ */
-@media screen and (max-width: 766px) {
-   #about .two-column-desc {
-	   margin-left: auto;
-	   margin-right: auto;
-	}
-}
-
 /*--------------------------------
  SKILL
 ---------------------------------*/
-
 #skill .card-wrapper {
   width: 80%;
   margin: 0 auto;
@@ -457,7 +401,6 @@ ul, li {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 #skill .card {
   flex-basis: 46%;
   margin-bottom: 50px;
@@ -470,27 +413,21 @@ ul, li {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-
 #skill .card:first-child {
   flex-basis: 100%;
 }
-
 #skill .skill-icon {
   flex-basis: 75px;
 }
-
 #skill .skill-icon img {
   width: 75px;
 }
-
 #skill .skill-desc {
   flex-basis: calc(100% - 75px - 30px);
 }
-
 #skill .skill-desc-title {
   margin-bottom: 3px;
 }
-
 #skill .rate {
   position: relative;
   display: inline-block;
@@ -498,7 +435,6 @@ ul, li {
   height: 20px;
   font-size: 20px;
 }
-
 #skill .rate:before, #skill .rate:after {
   position: absolute;
   top: 0;
@@ -508,46 +444,36 @@ ul, li {
   height: 20px;
   line-height: 20px;
 }
-
 #skill .rate:before {
   color: #ddd;
 }
-
 #skill .rate:after {
   color: #e8629f;
   overflow: hidden;
   white-space: nowrap;
 }
-
 #skill .rate1:after {
   width: 20px;
 }
-
 #skill .rate2:after {
   width: 40px;
 }
-
 #skill .rate3:after {
   width: 60px;
 }
-
 #skill .rate35:after {
   width: 73px;
 }
-
 #skill .rate4:after {
   width: 80px;
 }
-
 #skill .rate5:after {
   width: 100px;
 }
-
 #skill .rate-5:after {
   color: #733ADC;
   width: 100px;
 }
-
 .btn-top-radius {
   position: relative;
   display: inline-block;
@@ -560,20 +486,16 @@ ul, li {
   border-radius: 15px 15px 0 0;
   transition: .4s;
 }
-
 .btn-top-radius:hover {
   background: #ffc25c;
   color: #FFF;
 }
-
 /*--------------------------------
  SITES
 ---------------------------------*/
-
 #sites .sites-list {
   padding: 20px 0;
 }
-
 #sites .sites-list ul {
   width: 40%;
   margin: 0 auto;
@@ -588,36 +510,28 @@ ul, li {
   align-self: flex-end;
   ;
 }
-
 #sites .sites-list li {
   text-align: center;
 }
-
 #sites .sites-list li a {
   color: #333;
 }
-
 #sites .sites-list li img {
   width: 60px;
   margin: 0 auto 5px;
 }
-
 #sites .sites-list-desc {
   font-weight: bold;
 }
-
 /*--------------------------------
  Footer
 ---------------------------------*/
-
 #footer {
   background-color: #333;
 }
-
 #footer .inner {
   padding: 30px;
 }
-
 #footer .footer-link ul {
   margin-bottom: 30px;
   display: -webkit-box;
@@ -629,30 +543,25 @@ ul, li {
   -moz-justify-content: center;
   justify-content: center;
 }
-
 #footer .footer-link li {
   font-size: 12px;
   padding: 0 20px;
 }
-
 #footer .footer-link li a {
   color: #fff;
   font-weight: bold;
 }
-
 #footer .copyright {
   font-size: 10px;
   color: #8c8c8c;
   text-align: center;
 }
-
 /*media Queries 503
 ----------------------------------------------------*/
-
 @media screen and (max-width: 503px) {
   /* #wrapper {background: none} */
   body::before {
-    background:url("../img/common/bg/bg-sp.png") center/cover no-repeat;
+    background: url("../img/common/bg/bg-sp.png") center/cover no-repeat;
   }
   body {
     font-size: 13px;
@@ -700,7 +609,6 @@ ul, li {
     width: 90%;
     margin: 0 auto 20px;
   }
-
   #latestworks .two-column-desc {
     width: 100%;
   }
@@ -713,19 +621,9 @@ ul, li {
   #works .card-caption-info {
     font-size: 11px;
   }
-  #about .two-column-wrapper {
-    width: 100%;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  #about .two-column-image {
+  #about .my-icon {
     width: 50%;
-    margin: 0 auto 20px;
   }
-  #about .two-column-desc {
-   width: 100%;
- }
-
   #skill .card-wrapper {
     width: 100%;
   }
@@ -758,9 +656,9 @@ ul, li {
   #skill .rate3:after {
     width: 45px;
   }
-#skill .rate35:after {
-  width: 55.5px;
-}
+  #skill .rate35:after {
+    width: 55.5px;
+  }
   #skill .rate4:after {
     width: 60px;
   }
