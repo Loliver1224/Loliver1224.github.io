@@ -624,6 +624,9 @@ ul, li {
   #about .my-icon {
     width: 50%;
   }
+  #about .my-name {
+	font-size: 18px;
+  }
   #skill .card-wrapper {
     width: 100%;
   }
