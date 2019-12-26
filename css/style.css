@@ -296,6 +296,34 @@ ul, li {
   justify-content: space-between;
 }
 /*--------------------------------
+　Top
+---------------------------------*/
+#top .content{
+  width: 80%;
+  margin: auto;
+  padding: 30px 50px 50px 50px;
+  background: #fff0f5;
+}
+#top h1{
+  font-size: 40px;
+  color: #ff6699;
+  padding-bottom: 15px;
+}
+#top h1::after{
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: -10px;
+  background: -webkit-linear-gradient(to right, #ff6699, transparent);
+  background: linear-gradient(to right, #ff6699, transparent);
+}
+#top p{
+	padding-bottom: 10px;
+}
+#top .last{
+	padding-bottom: 20px;
+}
+/*--------------------------------
 　About
 ---------------------------------*/
 #about .my-icon {
@@ -560,6 +588,7 @@ ul, li {
 ----------------------------------------------------*/
 @media screen and (max-width: 503px) {
   /* #wrapper {background: none} */
+  .none{display: none}
   body::before {
     background: url("../img/common/bg/bg-sp.png") center/cover no-repeat;
   }
