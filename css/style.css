@@ -314,8 +314,8 @@ ul, li {
   display: block;
   height: 4px;
   margin-top: -10px;
-  background: -webkit-linear-gradient(to right, #ff6699, rgba(255, 255, 255, 0));
-  background: linear-gradient(to right, #ff6699, rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(to right, rgba(255, 102, 153, 1), rgba(255, 102, 153, 0));
+  background: linear-gradient(to right, rgba(255, 102, 153, 1), rgba(255, 102, 153, 0));
 }
 #top p{
 	padding-bottom: 10px;
