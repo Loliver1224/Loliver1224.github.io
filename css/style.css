@@ -274,23 +274,24 @@ ul, li {
 }
 #works .card-image {
   display: block;
-  padding: 5px;
-  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0;
+  border-radius: 15px;
   margin-bottom: 8px;
 }
 #works .card-caption-title {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
   color: #ff6699;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 #works .card-caption-info {
   font-size: 12px;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 #works .card-caption-url {
   font-size: 10px;
-  padding: 0 5px 5px;
+  padding: 0 10px 10px;
 }
 #works .card-wrapper {
   padding: 20px 0;
@@ -497,9 +498,6 @@ ul, li {
 #skill .rate3:after {
   width: 60px;
 }
-#skill .rate35:after {
-  width: 73px;
-}
 #skill .rate4:after {
   width: 80px;
 }
@@ -705,13 +703,13 @@ ul, li {
     width: 75px;
   }
   #sites .sites-list ul {
-    width: 100%;
+    width: 90%;
   }
   #sites .sites-list li {
     flex-basis: 20%;
   }
   #sites .sites-list li img {
-    width: 60px;
+    width: 40px;
   }
   #sites .sites-list-desc {
     font-size: 12px;
