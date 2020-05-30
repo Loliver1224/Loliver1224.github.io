@@ -268,21 +268,29 @@ ul, li {
 }
 */
 #works .card {
-  margin-bottom: 50px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 #works .card-image {
   display: block;
+  padding: 5px;
+  border-radius: 10px;
   margin-bottom: 8px;
 }
 #works .card-caption-title {
   font-size: 13px;
   font-weight: bold;
+  color: #ff6699;
+  padding: 0 5px;
 }
 #works .card-caption-info {
   font-size: 12px;
+  padding: 0 5px;
 }
 #works .card-caption-url {
   font-size: 10px;
+  padding: 0 5px 5px;
 }
 #works .card-wrapper {
   padding: 20px 0;
@@ -588,7 +596,6 @@ ul, li {
 ----------------------------------------------------*/
 @media screen and (max-width: 503px) {
   /* #wrapper {background: none} */
-  .none{display: none}
   body::before {
     background: url("../img/common/bg/bg-sp.png") center/cover no-repeat;
   }
